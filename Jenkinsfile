@@ -2,7 +2,7 @@ pipeline {
         agent any
         environment {
             registry = "muni123s/sprint6dockerjenkins"
-            registryCredential = 'dockerhubcredentials'
+            registryCredential = 'dockerhubcredential'
             dockerImage = ''
 		PROJECT_ID = 'third-upgrade-279211'
  		CLUSTER_NAME = 'sprint6-kube-cluster'
